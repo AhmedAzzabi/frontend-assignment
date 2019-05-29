@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello world!</h1>
+  <h1>Company View!</h1>
 </template>
 
 <script>

@@ -1,8 +1,13 @@
 import 'Styles/main.scss';
 import Vue from 'vue';
-import HelloWorld from 'Components/HelloWorld.vue';
+import App from './App.vue';
+import router from './router';
+import Default from "./layouts/Default.vue";
+
+Vue.component("default-layout", Default);
 
 new Vue({
-  render: createElement => createElement(HelloWorld),
+  router,
+  render: createElement => createElement(App),
   el: '#app'
 });
